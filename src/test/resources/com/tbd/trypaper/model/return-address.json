@@ -1,0 +1,13 @@
+{
+  "Id": "Primary",
+  "Address": {
+    "Name": "John Smith",
+    "Organization": "ACME, Inc.",
+    "AddressLineOne": "123 Any Street",
+    "AddressLineTwo": "Suite 789",
+    "City": "Anytown",
+    "Province": "WA",
+    "PostalCode": "12345",
+    "Country": "US"
+  }
+}

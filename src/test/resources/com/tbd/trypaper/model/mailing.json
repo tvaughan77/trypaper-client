@@ -1,0 +1,17 @@
+{
+  "ReturnAddressId" : "Test_Return_Address",
+  "Recipient" : {
+    "Name" : "John Smith",
+    "Organization" : "ACME, Inc.",
+    "AddressLineOne" : "123 Any Street",
+    "AddressLineTwo" : "Suite 789",
+    "City" : "Anytown",
+    "Province" : "WA",
+    "PostalCode" : "12345",
+    "Country" : "US"
+  },
+  "ReplyEnvelopeAddressId" : "Test_Return_Address",
+  "HIPAASensitive" : false,
+  "Content" : "http://i.trypaper.com/pub/MacroniAndCheeseReference.pdf",
+  "Tags" : [ "force_bw", "duplex" ]
+}

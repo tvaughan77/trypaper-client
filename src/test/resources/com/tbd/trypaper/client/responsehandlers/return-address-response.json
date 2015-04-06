@@ -1,0 +1,27 @@
+[
+    {
+        "Id": "Primary",
+        "Address": {
+            "Name": "John Smith",
+            "Organization": "ACME, Inc.",
+            "AddressLineOne": "123 Any Street",
+            "AddressLineTwo": "Suite 789",
+            "City": "Anytown",
+            "Province": "WA",
+            "PostalCode": "12345",
+            "Country": "US"
+        }
+    },
+    {
+        "Id": "Secondary",
+        "Address": {
+            "Name": "Tom Vaughan",
+            "Organization": "TBD, Inc.",
+            "AddressLineOne": "987 Main Avenue",
+            "City": "Arlington",
+            "Province": "VA",
+            "PostalCode": "22209",
+            "Country": "US"
+        }
+    }
+]
