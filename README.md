@@ -14,7 +14,10 @@ Java REST client for the trypaper.com API
 Construct a client with your API Key and any other specific behavior rides you want or need:
 ```Java
 // Simplest client:
-DefaultTryPaperClient client = DefaultTryPaperClientBuilder.create( ).withApiKey( "my key" ).build( );
+DefaultTryPaperClient client = DefaultTryPaperClientBuilder
+    .create( )
+    .withApiKey( "my key" )
+    .build( );
 
 // Builder provides additional configuration options:
 DefaultTryPaperClient client = DefaultTryPaperClientBuilder
@@ -34,6 +37,8 @@ MailingResponse response = client.postMailing( myMailing );
 
 # Contributing
 Feel free to issue pull requests against this and/or fork it for your own purposes.  If you want to contirbute, run "mvn clean site" before submitting a pull request and make sure checkstyle, pmd, findbugs are all reporting a good build.
+
+Note to contributors: code coverage reports are generated as part of the build and available under ./target/site/jacoco-combined/index.html.  These reports are not currently linked to off of the normal maven-site-plugin generated ./target/site, but it'd be nice if they were.
 
 # TODO:
 2. timing / metrics
